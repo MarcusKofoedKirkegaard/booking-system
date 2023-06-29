@@ -1,0 +1,14 @@
+@import "main.css";
+
+.MuiCheckbox-root {
+    display: block;
+    margin-left: 28px;
+    margin-top: 16px;
+}
+
+#confirm-booking {
+    width: 100%;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+}

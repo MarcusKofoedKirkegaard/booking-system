@@ -1,0 +1,43 @@
+@import "main.css";
+
+h1{
+    padding-left: 16px;
+}
+
+.info-block {
+    display: inline-block;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 2px;
+    position: relative;
+    color: var(--subheader-color);
+    font-weight: bold;
+}
+
+.info-block-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#booking-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#booking-container h3 {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--primary);
+}
+
+#description {
+    color: var(--subheader-color);
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}

@@ -1,0 +1,22 @@
+@import "main.css";
+
+#bookings-container h1 {
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+#bookings-container {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#bookings-container .MuiButton-contained {
+    margin-top: 16px !important;
+}
+
+#new-booking {
+    width: 100%;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+}

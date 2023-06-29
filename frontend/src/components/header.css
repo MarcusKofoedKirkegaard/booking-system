@@ -1,0 +1,19 @@
+#topbar{
+    display: inline-flex;
+    height: 60px;
+    width: 100%;
+    background-color: #262B52;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+h3{
+    margin-left: 12px;
+}
+
+#menu{
+    padding-top: 11px;
+    margin-left: auto;
+    margin-right: 12px;
+}

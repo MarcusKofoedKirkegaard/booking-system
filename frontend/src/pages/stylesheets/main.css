@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css?family=Oxygen";
+
+:root {
+    --background: white;
+    --primary: #262B52;
+
+    --header-color: #1d1d1d;
+    --subheader-color: #4F4F4F;
+
+    --btn-background: #70D8E7;
+    --btn-color: black;
+    --btn-disabled-background: #E1E1E1;
+    --btn-disabled-color: #B6B6B6;
+    --btn-cancel-color: #e77070;
+    --btn-booked-color: #81F784;
+
+    --light-color: white;
+}
+
+.mainContainer{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+body {
+    font-family: Oxygen;
+    text-align: left;
+    height: 750px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    text-align: left;
+    font-size: 20pt;
+    color: var(--header-color);
+}
+
+h2 {
+    font-size: 12pt;
+    color: var(--subheader-color);
+    font-weight: bold;
+    padding-left: 28px;
+}
+
+h3 {
+    font-size: 10pt;
+    color: var(--light-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.MuiButton-contained {
+    color: var(--btn-color) !important;
+    background: var(--btn-background) !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+}
+
+.MuiButton-contained.cancellable {
+    background: var(--btn-cancel-color) !important;
+}
+
+.MuiButton-contained.booked {
+    background: var(--btn-booked-color) !important;
+}
+
+.MuiButton-contained.Mui-disabled {
+    color: var(--btn-disabled-color) !important;
+    background: var(--btn-disabled-background) !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.MuiInput-root {
+    border-radius: 1px !important;
+    margin-bottom: 8px !important;
+}
